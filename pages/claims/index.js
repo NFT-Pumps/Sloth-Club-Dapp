@@ -164,10 +164,10 @@ export default function Claim() {
                             </> :
                             <>
                               <hr />
-                              <h1 className="subtitle font-light" style={{ color: "#000000"}}>Communicating with the blockchain!</h1>
+                              <h1 className="subtitle font-light" style={{ color: "#ffffff"}}>Communicating with the blockchain!</h1>
                             </>}
                         </>
-                        : <h1 className="subtitle font-light" style={{ color: "#000000"}}>You are not on the whitelist</h1>
+                        : <h1 className="subtitle font-light" style={{ color: "#ffffff"}}>You are not on the whitelist</h1>
                       }
                       <a
                         onClick={() => walletBridge1.disconnect()}
@@ -185,7 +185,7 @@ export default function Claim() {
                       {currentUseState.hashHtml}
                     </>
                     :
-                    <h1 className="subtitle font-light" style={{ color: "#000000"}}>Claim mint is currently closed!</h1>
+                    <h1 className="subtitle font-light" style={{ color: "#ffffff"}}>Claim mint is currently closed!</h1>
                   }
                 </Col>
               }
