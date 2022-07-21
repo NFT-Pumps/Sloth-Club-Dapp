@@ -1169,7 +1169,7 @@ export default function ContractABI() {
                   "type":"uint8"
                }
             ],
-            "internalType":"struct GenericNFTPumpContract.WhitelistClaimPass",
+            "internalType":"struct SlothClubNFT.WhitelistClaimPass",
             "name":"whitelistClaimPass",
             "type":"tuple"
          }
