@@ -168,7 +168,7 @@ const AdminComponents = () => {
                   Connect Wallet
                 </a>
                 <Link href={process.env.mainWWW}>
-                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#ce3a7f" }}>
+                  <a className="btn btn-md m-t-30  btn-outline-light " style={{ backgroundColor: "#226534" }}>
                     Back Home
                   </a>
                 </Link>
@@ -189,7 +189,7 @@ const AdminComponents = () => {
                 <a
                   onClick={() => walletBridge1.disconnect()}
                   className="btn btn-md m-t-30 btn-outline-light "
-                  style={{ backgroundColor: "#741ea1" }}
+                  style={{ backgroundColor: "#226534" }}
                 >
                   Disconnect Wallet
                 </a>
