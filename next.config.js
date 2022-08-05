@@ -11,7 +11,7 @@ module.exports = {
     mintType : "Pre-Sale", //Pre-Sale Public
     enforceWhitelist : true,
     ethValue : "0.1",
-    ethWLValue : "0.06",
+    ethWLValue : "0.0",
     debug: false,
     network: 'mainnet',
     chainId: 1,
